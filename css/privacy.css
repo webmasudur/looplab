@@ -1,0 +1,16 @@
+.privacy-policy {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.privacy-policy h2 {
+    margin: 30px 0;
+}
+
+.privacy-policy ol li {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: justify;
+    margin: 15px 0;
+}

@@ -1,0 +1,105 @@
+.about-color {
+    background-color: var(--white);
+    padding: 20px 0;
+}
+
+.recent-work .row {
+    padding-top: 20px;
+}
+
+.recent-work-col {
+    flex-basis: 24%;
+}
+
+.about-color h1 {
+    color: var(--black);
+    margin-bottom: 40px;
+}
+
+.recent-work h1 i {
+    color: var(---green);
+}
+
+.layer:hover {
+    background: rgba(1, 82, 31, 0.6);
+}
+
+
+/*---------------Our Speciality----------*/
+
+.our-speciality {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.our-speciality h2 {
+    color: var(---green);
+}
+
+.speciality {
+    width: 100%;
+}
+
+.speciality-left,
+.speciality-right {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.speciality-left {
+    padding: 20px 50px 20px 20px;
+}
+
+.speciality-right {
+    padding: 20px 40px 100px 50px;
+}
+
+.speciality-left h4,
+.speciality-right h4 {
+    padding: 5px 0;
+    font-size: 20px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.speciality-left h4 i,
+.speciality-right h4 i {
+    font-size: 24px;
+    transition: .5s;
+    color: var(---green);
+}
+
+.speciality-left h4 i:hover,
+.speciality-right h4 i:hover {
+    color: var(---black);
+}
+
+.speciality-left p,
+.speciality-right p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.speciality-left button {
+    padding: 10px 15px;
+    margin-top: 40px;
+}
+
+.speciality-left button a {
+    letter-spacing: 2px;
+}
+
+
+/*-------------Responsive---------*/
+
+@media screen and (max-width: 720px) {
+    .speciality-left,
+    .speciality-right {
+        width: 100%;
+    }
+    .speciality-right {
+        padding-left: 20px;
+    }
+}
